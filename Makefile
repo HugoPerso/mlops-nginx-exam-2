@@ -1,3 +1,9 @@
+start-project:
+    docker compose up --build -d
+
+stop-project:
+    docker compose down
+
 run-project:
 	# run project
 	@echo "Grafana UI: http://localhost:3000"
