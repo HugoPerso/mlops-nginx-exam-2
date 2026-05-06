@@ -1,8 +1,8 @@
 start-project:
-    docker compose up --build -d
+	docker compose up --build -d
 
 stop-project:
-    docker compose down
+	docker compose down
 
 run-project:
 	# run project
